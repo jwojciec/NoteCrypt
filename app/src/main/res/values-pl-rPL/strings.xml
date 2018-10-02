@@ -7,7 +7,7 @@
     <string name="action_about">Informacje o produkcie</string>
     <string name="hint_field_new_password">Nowe Hasło</string>
     <string name="hint_field_conf_password">Potwierdź Hasło</string>
-    <string name="title_changeMasterPass">Wprowadź nowe Główne Hasło</string>
+    <string name="title_changeMasterPass">Wprowadź nowe Hasło Główne</string>
     <string name="title_databaseLocation">Wprowadź plik bazy danych:</string>
     <string name="desc_fileManager">Otwórz Menedżera Plików</string>
     <string name="butt_open">Otwórz</string>
@@ -26,7 +26,7 @@
     <string name="toast_IOError">Błąd I/O!</string>
     <string name="title_password">Wprowadź Hasło</string>
     <string name="toast_emptyPassword">Puste hasło jest niedozwolone</string>
-    <string name="toast_wrongPassword">Wrong Password or corrupted database</string>
+    <string name="toast_wrongPassword">Złe hasło lub uszkodzona baza danych</string>
     <string name="toast_wrongPath">Błąd odczytu bazy danych.\nSprawdź poprawność ścieżki</string>
     <string name="toast_errorCreatingDB">Błąd podczas tworzenia pliku bazy danych.\nSprawdź poprawność ścieżki</string>
     <string name="toast_wrongNewPassword">Hasła nie pasują do siebie</string>
@@ -55,7 +55,7 @@
     <string name="sure_rate">Oceń teraz</string>
     <string name="later">Może później</string>
     <string name="rate">Oceń</string>
-    <string name="rate_message">Jeśli podoba Ci się Note Crypt, bardzo ucieszy mnie Twoją ocena aplikacji w sklepie. Dziękuję bardzo.</string>
+    <string name="rate_message">Jeśli podoba Ci się Note Crypt, bardzo ucieszy mnie Twoja ocena aplikacji w sklepie. Dziękuję bardzo.</string>
     <string name="upgrade_message">Postaw mi kawę kupując NoteCrypt w wersji Donate/Pro.\nDzięki niej otrzymasz również dodatkowe funkcje.</string>
     <string name="action_donate">Wspomóż</string>
     <string name="pref_drawer">Filtr animacji na starcie</string>
