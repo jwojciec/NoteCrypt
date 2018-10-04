@@ -11,17 +11,18 @@ import org.junit.runners.JUnit4;
 @RunWith(JUnit4.class)
 public class StringMethodsTest {
 
-    private final static String TEST_PATH = "test_path";
+    private final static String TEST_PATH = "/test_path/file_name";
     private final StringMethods stringMethods = StringMethods.getInstance();
 
     @Test
     public void When_CheckExtensionIsCalled_Expect_CorrectStringReturned() {
-        assertThat(stringMethods.checkExtension(TEST_PATH), is("test_path.ncf"));
+        assertThat(stringMethods.checkExtension(TEST_PATH), is("/test_path/file_name.ncf"));
+        assertThat(stringMethods.checkExtension(".ncf"), is(".ncf"));
     }
 
     @Test
     public void When_GetNameDBIsCalled_Expect_CorrectStringReturned() {
-        assertThat(stringMethods.getNameDB(TEST_PATH), is("test_path"));
+        assertThat(stringMethods.getNameDB(TEST_PATH), is("file_name"));
     }
 
     @Test
