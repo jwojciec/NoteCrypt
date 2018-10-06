@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-@RunWith(JUnit4.class)
 public class StringMethodsTest {
 
     private final static String TEST_PATH = "/test_path/file_name";
